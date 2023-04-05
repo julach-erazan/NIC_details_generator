@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+
+body{
+  width: 100vw;
+  height: 100%;
+  background-color: #d0dfff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  width: 100vw;
+  height: 100%;
+  padding: 30px;
+  max-width: 100vw;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.myform{
+  width: 350px;
+  height: 500px;
+  background-color: #86abf9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.input{
+  width: 300px;
+  height: 100px;
+  color: white;
+  border: 3px solid #6893ee;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.btn{
+  width: 50px;
+  height: 33px;
+  border-radius: 0;
+  border: 0;
+  background-image: url('./blueArrowpng.png');
+  background-size: 25px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+  border-bottom: 2px solid #6893ee;
+  border-top: 2px solid #6893ee;
+  border-right: 2px solid #6893ee;
+  border-radius: 0 15px 15px 0;
+}
+
+.inp{
+  width: 170px;
+  height: 33px;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+  border-bottom: 2px solid #6893ee;
+  border-top: 2px solid #6893ee;
+  border-left: 2px solid #6893ee;
+  border-radius: 10px 0  0 10px;
+  background-color: #d0dfff;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.inp:focus{
+  outline: none;
+}
+
+.output{
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #6893ee;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.h1{
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 100;
+  top: 35px;
+  font-family: 'Dosis', sans-serif;
+  background-color: #86abf9;
+  color: white;
+}
+
+.h2{
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 100;
+  top: 160px;
+  font-family: 'Dosis', sans-serif;
+  background-color: #86abf9;
+  color: white;
+}
+
+.h3{
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 100;
+  top: 276px;
+  font-family: 'Dosis', sans-serif;
+  background-color: #86abf9;
+  color: white;
+}
+
+.h4{
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 100;
+  top: 391px;
+  font-family: 'Dosis', sans-serif;
+  background-color: #86abf9;
+  color: white;
+}
+
+.h{
+  font-size: 20px;
+  font-family: 'Exo 2', sans-serif;
+}
